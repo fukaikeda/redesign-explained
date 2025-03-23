@@ -1,3 +1,4 @@
+
 .toc {
     background: #f0f0f0;
     padding: 10px;
@@ -5,7 +6,6 @@
     max-width: 300px;
     margin: auto;
     text-align: center;
-    line-height: 20pt;
 }
 
 
@@ -37,6 +37,7 @@ body {
     margin: 20px;
     background-color: #f4f4f4;
     color: #333;
+    line-height: 30px;
 }
 
 h2 {
@@ -50,7 +51,6 @@ h2 {
     text-align: center;
     color: #333;
     font-size: 16px;
-    line-height: 20pt;
     
 }
 
@@ -73,7 +73,7 @@ h2 {
 }
 
 img {
-    max-width: 80%;
+    max-width: 60%;
     height: auto;
 }
 
@@ -104,53 +104,4 @@ tr:nth-child(even) {
     text-align: center;
     color: #114B5F;
     font-size: 24px;
-    line-height: 20pt;
-}
-
-a {
-    color: #114B5F;
-    font-weight: bold;
-}
-
-a:hover {
-    color: #2591b5;
-}
-
-.question {
-    font-weight: bold;
-    margin-top: 15px;
-    color: #444;
-    text-align: center;
-    line-height: 20pt;
-}
-
-.answer-list {
-    list-style-type: none;
-    padding-left: 0;
-}
-
-.answer-list li {
-    background: #ffffff;
-    margin: 5px 0;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
-    line-height: 20pt;
-}
-
-.notes {
-    background: #ffffff;
-    margin: 5px 0;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
-    line-height: 20pt;
- 
-}
-
-.answer-role {
-    font-weight: bold;
-    color: #0073e6;
-    text-align: left;
-    line-height: 20pt;
 }

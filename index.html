@@ -1,5 +1,8 @@
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Redesign</title>
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -8,16 +11,117 @@
     <div class="container" id="content">
         <div class="section">
             <h2>Redesign of <b>Kathy's Driving School</b></h2>
-            <p class="paragraph">As I was browsing different websites
-                to find a driving school, I found it very difficult to
-                read websites and find a service I was pulled too.
-                Connecting my knowledge about interfaces, I identified 
-                some key issues in the usability of these webpages.
-                Therefore, I decided to redesign a webpage for better
-                user experience, with careful attention to how the screen
-                looks on different devices.
+            <p class="paragraph">
+                While searching for a driving school, I found it difficult to read websites and find a service that appealed to me.  
+                Applying my knowledge of user interfaces, I identified key usability issues that hindered the user experience.  
+                Therefore, I decided to redesign a webpage to improve accessibility and navigation, ensuring a seamless experience across different devices.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>The Original Website</h2>
+
+            <div class="image-container">
+                <img src='images/original.png' 
+                alt="Original Website">
+            </div>
+            <p class="paragraph">
+                The original website I chose for this redesign is <a href="https://kathysdrivingschool.com/" target="_blank">Kathy's Driving School</a>.  
+                When attempting to book a session, I noticed several usability issues, including unnecessary animations and unclear navigation.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>Accessibility and Usability Issues</h2>
+            <p class="paragraph">
+                Through my analysis, I identified the following key issues with the website:
+            </p>
+            <ul>
+                <li><b>Efficiency:</b> Booking a session is difficult because users must select a location before viewing the calendar. This is frustrating for users who prioritize availability over location.</li>
+                <li><b>Comparing Prices:</b> Users cannot compare prices easily, which may be intentional but negatively impacts decision-making.</li>
+                <li><b>Learnability:</b> Service descriptions are unclear; the site immediately directs users to pricing and booking pages instead of explaining the offerings.</li>
+                <li><b>Payment Procedure:</b> The payment process lacks transparency, making it hard for users to understand how to complete transactions.</li>
+                <li><b>Memorability:</b> The site contains multiple links leading to different calendars with inconsistent UI, making navigation confusing.</li>
+                <li><b>Conceptual Model:</b> The site's icons and banners do not correspond to their content, causing disorientation.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Web Accessibility Audit</h2>
+            <p class="paragraph">
+                Using <a href="https://wave.webaim.org/" target="_blank">WebAIM WAVE</a>, I evaluated the accessibility of the website. Key findings include:
+            </p>
+            <ul>
+                <li>Alt text is provided for images, which is good practice. However, the descriptions are not informative enough for screen readers.</li>
+                <li>Some text elements have low contrast, making readability difficult for users with visual impairments.</li>
+                <li>Several form inputs are missing labels, making it challenging for screen reader users to interact with them.</li>
+            </ul>
+            <p>
+                To improve accessibility, I recommend adding detailed alt text, enhancing text contrast, and ensuring all form inputs have clear labels.
+                View my annotations <a href="https://www.figma.com/design/ufJsDIOJasPvLM9KVE4MBb/Untitled?node-id=0-1&t=JbgsjlBvqru8HZcp-1" target="_blank">here</a>.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>Redesign Goals</h2>
+            <p class="paragraph">
+                My primary goal is to make the website more user-friendly, ensuring users can:
+            </p>
+            <ul>
+                <li>Swiftly navigate and find relevant information.</li>
+                <li>Easily compare pricing and services.</li>
+                <li>Understand the booking and payment processes without confusion.</li>
+                <li>Experience an accessible and visually clear interface.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Style Guide</h2>
+            <div class="image-container">
+            <img src='images/styleguide.png' 
+            alt="Style Guide">
+        </div>
+            <p class="paragraph">
+                To ensure a cohesive and accessible design, I developed a style guide focusing on readability, consistency, and user experience. The redesign adopts a clean and modern aesthetic based on the original theme.
+            </p>
+            <p class="paragraph">
+                The primary color palette consists of high-contrast colors based off the Rhode Island licsense plate to enhance readability, particularly for users with visual impairments. I selected an Arial typeface for its legibility.
+            </p>
+            <p class="paragraph">
+                Elements, such as buttons and graphs, follow a consistent design pattern to improve usability. Additionally, I implemented a responsive layout, allowing seamless adaptability across different screen sizes.
+            </p>
+            <p class="paragraph">
+                This style guide ensures that the redesigned website maintains both visual appeal and accessibility, aligning with modern web design best practices.
             </p>
         </div>
         
 
+        <div class="section">
+            <h2>The Redesign</h2>
+            <p class="paragraph">
+                View the redesign <a href="https://fukaikeda.github.io/redesign/" target="_blank">here</a>.
+                This new website is hopefully easier for the user on both usability and accessibility.</p>
+
+                <div class="image-container">
+                    <img src='images/new.png' 
+                    alt="New Website">
+                </div>
+
+                
+        </div>
+
+        <div class="section">
+            <h2>Conclusion</h2>
+            <p class="paragraph">
+                Through this project, I gained valuable insights into usability issues and accessibility challenges.  
+                By implementing a structured redesign, I aimed to enhance user experience, making the website more efficient, learnable, and inclusive for all users. <br>
+                <br>
+                Key improvements to the website include removal of unnecessary dynamic components, restructure of important functionality like booking sessions, and an overall more consistent design.
+                By implementing a modern color palette and a basic font, the website has a cleaner look as well as a higher legibility.
+                This experience furthered my appreciation for a good design and developed my practical skills in improving accessibility.
+            </p>
+        </div>
+    </div>
+
 </body>
+</html>
